@@ -2,7 +2,7 @@ const Pagination = ({ items, pageSize, onPageChange }) => {
   const { Button } = ReactBootstrap;
   if (items.length <= pageSize) return null;
   let num = Math.ceil(items.length / pageSize);
-  let pages = range(1, num + 1);
+  let pages = range(1, num);
   const list = pages.map(page => {
     return (
       <Button key={page} onClick={onPageChange} className="page-item btn-danger">
