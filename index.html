@@ -8,10 +8,29 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <!-- Don't use this in production: -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body {
+            padding: 40px;
+        }
+        img {
+            border-radius: 10px;
+            float: left;
+            margin-right: 20px;
+            max-width: 150px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        button {
+            margin: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>React Get Data</h1>
+    <h1>The Complete Character List for AMC's <em>Breaking Bad</em> and <em>Better Call Saul</em></h1>
+    <h2>A Data-Fetching Exercise with React</h2>
+    <p>While looking through the long list of public APIs provided in the instructions for this assignment, the <em>Breaking Bad API</em> caught my eye. I'm a big fan of the show, along with its spin-off, <em>Better Call Saul</em>, so I decided to appeal to my own interest on this. Below is a complete list of characters from both shows, paginated at 10 per page.</p>
 
     <!-- We will put our React component inside this div. -->
     <div id="root"></div>
