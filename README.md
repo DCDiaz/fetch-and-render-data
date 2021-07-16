@@ -1,7 +1,7 @@
 # Fetch and Render Data
 
 ## Description
-This is a programming exercise, using React and JSX, to fetch data from an external URL and render it in a list with Bootstrap styling. *This is a work in progress; it is not finished.*
+This is a programming exercise, using React and JSX, to fetch data from an external URL and render it in a list with Bootstrap styling. While looking through the long list of public APIs provided in the instructions for this assignment, the Breaking Bad API caught my eye. I'm a big fan of the show, along with its spin-off, Better Call Saul, so I decided to appeal to my own interest on this. This app displays a complete list of characters from both shows, paginated at 10 per page.
 
 ## Installation / Usage
 Download all of the files within this repository, and load the index.html file in a web browser. This app can run while hosted either on a local or remote web server. For a live preview, you can run the index.html file in this repo, directly, by visting this URL: https://dcdiaz.github.io/fetch-and-render-data/
